@@ -1,0 +1,15 @@
+.img-wt-ht{
+  height: 200px;
+  width: 311px;
+}
+
+.div-cls{
+  max-width: 330px;
+}
+
+@media (min-width: 767px) {
+  .div-cls{
+    max-width: 310px;
+  }
+
+}
