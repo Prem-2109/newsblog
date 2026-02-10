@@ -4,13 +4,13 @@ import Nav from './components/nav'
 import Newsboard from "./components/newsboard";
 
 function App() {
-  const [category, setcategory]=useState([])
+  const [category, setcategory] = useState('')
 
   return (
-    <>
-    <Nav setcategory={setcategory}/>
-    <Newsboard category={category}/>
-    </>
+    <div>
+      <Nav setcategory={setcategory} />
+      <Newsboard category={category}/>
+    </div>
   )
 }
 
