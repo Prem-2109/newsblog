@@ -1,0 +1,25 @@
+/* Newsboard.css */
+
+.container {
+    padding: 20px;
+  }
+  
+  .news-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .news-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  
+  @media (max-width: 768px) {
+    .news-item {
+      margin-bottom: 20px;
+    }
+  }
+  
